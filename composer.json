@@ -1,0 +1,21 @@
+{
+    "name": "thinkpad/testing",
+    "description": "lol",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "license": "2023",
+    "autoload": {
+        "psr-4": {
+            "Thinkpad\\Testing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmed AlaaEldin",
+            "email": "ahmedindreams@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
